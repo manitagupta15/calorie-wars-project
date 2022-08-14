@@ -56,6 +56,11 @@ export default function Login({ setLoadPage }) {
   return (
     // <KeyboardAvoidingView style={styles.container} behavior="padding">
     <View style={styles.container} behavior="padding">
+      <Text>Calorie Wars logo</Text>
+      <Text style={styles.heading}>
+        Welcome to calorie Wars!{'\n'}An app where you can compete with your friends to reach your
+        calorie goals.
+      </Text>
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Email"
@@ -129,5 +134,12 @@ const styles = StyleSheet.create({
     color: '#0782F9',
     fontWeight: '700',
     fontSize: 16,
+  },
+  heading: {
+    fontSize: 22,
+    textAlign: 'center',
+    marginTop: 40,
+    padding: 15,
+    color: 'green',
   },
 });
