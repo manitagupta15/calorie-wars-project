@@ -54,7 +54,8 @@ export default function Login({ setLoadPage }) {
   };
 
   return (
-    <KeyboardAvoidingView style={styles.container} behavior="padding">
+    // <KeyboardAvoidingView style={styles.container} behavior="padding">
+    <View style={styles.container} behavior="padding">
       <View style={styles.inputContainer}>
         <TextInput
           placeholder="Email"
@@ -79,7 +80,8 @@ export default function Login({ setLoadPage }) {
           <Text style={styles.buttonOutlineText}>Register</Text>
         </TouchableOpacity>
       </View>
-    </KeyboardAvoidingView>
+    </View>
+    //  </KeyboardAvoidingView>
   );
 }
 
