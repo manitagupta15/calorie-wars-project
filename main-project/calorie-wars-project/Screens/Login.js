@@ -141,5 +141,10 @@ const styles = StyleSheet.create({
     marginTop: 40,
     padding: 15,
     color: 'green',
+    borderWidth: 2,
+    borderRadius: 25,
+    borderColor: 'green',
+    backgroundColor: '#f1faee',
+    marginBottom: 15,
   },
 });
